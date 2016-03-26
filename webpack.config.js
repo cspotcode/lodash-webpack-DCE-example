@@ -18,17 +18,6 @@ function config(name, doUglify, doMangle) {
             filename: '[name].js',
             pathinfo: true
         },
-        module: {
-        //    loaders: [
-        //        {
-        //            loader: 'babel-loader',
-        //            test: /.*\.js$/,
-        //            query: {
-        //                presets: ['es2015-native-modules']
-        //            },
-        //        }
-        //    ]
-        },
         plugins: [
             doUglify && new webpack.optimize.UglifyJsPlugin({
                 compress: {},
