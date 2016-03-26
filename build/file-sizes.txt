@@ -1,9 +1,9 @@
- 115.98 kB,   30.79 kB gz named-export-uglified-mangled.js
-  430.4 kB,   60.21 kB gz named-export-uglified.js
-      1 MB,  143.87 kB gz named-export.js
+  73.07 kB,   19.48 kB gz named-export-uglified-mangled.js
+  254.9 kB,   36.61 kB gz named-export-uglified.js
+ 824.12 kB,  127.25 kB gz named-export.js
      372 B,      266 B gz path-to-file-uglified-mangled.js
    1.08 kB,      428 B gz path-to-file-uglified.js
    2.76 kB,      976 B gz path-to-file.js
- 160.07 kB,   35.36 kB gz wildcard-uglified-mangled.js
-  531.5 kB,    67.8 kB gz wildcard-uglified.js
-   1.07 MB,  147.81 kB gz wildcard.js
+  136.8 kB,   28.29 kB gz wildcard-uglified-mangled.js
+ 428.96 kB,   54.67 kB gz wildcard-uglified.js
+ 889.84 kB,  131.15 kB gz wildcard.js
