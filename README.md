@@ -22,3 +22,11 @@ export default {foo, bar};
 // do this:
 export default {foo: foo, bar: bar};
 ```
+
+In the "removed-default-export-objects" branch I removed all those objects entirely.  It seems to make the output smaller.
+If someone wants that behavior, they can still do a wildcard import.
+
+```
+import * as ldString from 'lodash/string';
+ldString.toUpper('hello world');
+```
