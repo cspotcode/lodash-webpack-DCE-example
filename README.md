@@ -16,6 +16,8 @@ For each entry point, bundles are created at several levels of minification:
 * `build/[name]-uglified.js`: Webpack output with dead code removed by Uglify.  Output is unmangled and prettified so you can inspect it more easily.
 * `build/[name]-uglified-mangled.js`: Bundle is totally minified.
 
+File sizes before and after gzipping are output to `build/file-sizes.txt`
+
 In all of lodash-es's .default.js files, object literal property value shorthand has been replaced so that Babel transpilation is not necessary.
 
 ```

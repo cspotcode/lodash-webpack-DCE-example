@@ -1,12 +1,15 @@
 {
   "devDependencies": {
+    "glob": "^7.0.3",
+    "gzip-size": "^3.0.0",
     "lodash-es": "^4.6.1",
+    "pretty-bytes": "^3.0.1",
     "webpack": "^2.1.0-beta.4"
   },
   "bundledDependencies": [
     "lodash-es"
   ],
   "scripts": {
-    "build": "webpack --display-chunks --display-modules --display-origins"
+    "build": "webpack --display-chunks --display-modules --display-origins ; node scripts/write-sizes.js"
   }
 }
