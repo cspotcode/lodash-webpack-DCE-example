@@ -5,8 +5,9 @@ and isn't removable via dead code elimination.
 
     $ npm run-script build
 
-There are two entry points:
+There are three entry points:
 
+* `src/wildcard.js`: imports `* as _ from 'lodash-es';`
 * `src/named-export.js`: imports `{isObject} from 'lodash-es';`
 * `src/path-to-file.js`: imports `isObject from 'lodash-es/isObject';`
 

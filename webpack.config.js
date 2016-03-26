@@ -41,4 +41,7 @@ function bundlesForEntry(name) {
     return [config(name, true, true), config(name, true, false), config(name, false, false)]
 }
 
-module.exports = [].concat(bundlesForEntry('named-export')).concat(bundlesForEntry('path-to-file'));
+module.exports = []
+    .concat(bundlesForEntry('named-export'))
+    .concat(bundlesForEntry('path-to-file'))
+    .concat(bundlesForEntry('wildcard'));
