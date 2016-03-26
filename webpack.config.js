@@ -22,7 +22,10 @@ function config(name, doUglify, doMangle) {
             doUglify && new webpack.optimize.UglifyJsPlugin({
                 compress: {},
                 mangle: doMangle,
-                beautify: !doMangle
+                beautify: !doMangle,
+                output: {
+                    comments: doMangle ? false : undefined
+                }
             })
         ].filter(Boolean),
         stats: {
